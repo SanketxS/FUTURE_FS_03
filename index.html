@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copper Cup Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="background-texture"></div>
+  <header class="nav-shell">
+    <div class="logo">Copper Cup</div>
+    <nav class="nav-links">
+      <a href="#menu">Menu</a>
+      <a href="#story">Story</a>
+      <a href="#signature">Signature</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+      <a href="#reserve" class="pill">Reserve</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section" id="top">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Neighborhood café • Est. 2024</p>
+        <h1>Slow crafted coffee, fast friends.</h1>
+        <p class="lede">Small-batch roasts, seasonal pastries, and a space that feels like home. Drop in for your morning ritual or linger until golden hour.</p>
+        <div class="actions">
+          <a class="btn primary" href="#menu">View menu</a>
+          <a class="btn ghost" href="#reserve">Book a table</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <span class="stat">18</span>
+            <span class="label">Single-origin beans</span>
+          </div>
+          <div>
+            <span class="stat">12h</span>
+            <span class="label">Cold brew steep</span>
+          </div>
+          <div>
+            <span class="stat">7am</span>
+            <span class="label">First pour daily</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="card glass">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=900&q=80" alt="Pouring latte" />
+          <div class="card-meta">
+            <span>Signature pour</span>
+            <p>Single-origin with house-made oat vanilla.</p>
+          </div>
+        </div>
+        <div class="floating-tag">Roasted in-house</div>
+        <div class="floating-tag alt">Local bakery partners</div>
+      </div>
+    </section>
+
+    <section class="section split" id="story">
+      <div class="copy reveal">
+        <p class="eyebrow">Our story</p>
+        <h2>Built by baristas, loved by neighbors.</h2>
+        <p>We started as a weekend pop-up, sharing micro-lot beans with friends. Today, Copper Cup is a bright corner café where slow coffee meets fast hospitality. We source transparently, dial in every roast, and bake each pastry before sunrise.</p>
+        <div class="pill-row">
+          <span class="pill">Direct trade</span>
+          <span class="pill">House syrups</span>
+          <span class="pill">Plant-forward bites</span>
+        </div>
+      </div>
+      <div class="image-stack reveal">
+        <img class="stack top" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Cafe interior" />
+        <img class="stack bottom" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Pastry display" />
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="section-header reveal">
+        <div>
+          <p class="eyebrow">Menu</p>
+          <h2>Comfort staples and seasonal specials.</h2>
+          <p class="lede">Brewed slow, served bright. Rotate with the seasons and sourced with care.</p>
+        </div>
+        <div class="filters" id="menu-filters"></div>
+      </div>
+      <div class="menu-grid" id="menu-grid"></div>
+    </section>
+
+    <section class="section signature" id="signature">
+      <div class="section-header reveal">
+        <p class="eyebrow">Signature pours</p>
+        <h2>Craft drinks that earned a following.</h2>
+      </div>
+      <div class="signature-cards">
+        <article class="sig-card reveal">
+          <div class="sig-meta">
+            <p class="eyebrow">Limited</p>
+            <h3>Smoked Maple Cortado</h3>
+            <p>Espresso, smoked maple syrup, orange oil, microfoam. Balanced sweetness with a citrus finish.</p>
+            <div class="pill-row"><span class="pill">Oat</span><span class="pill">Citrus</span></div>
+          </div>
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" alt="Cortado" />
+        </article>
+        <article class="sig-card reveal">
+          <div class="sig-meta">
+            <p class="eyebrow">All-day</p>
+            <h3>Honeycomb Cold Brew</h3>
+            <p>18-hour steep, honeycomb toffee syrup, sea salt cold foam. Smooth, layered, wildly drinkable.</p>
+            <div class="pill-row"><span class="pill">Cold brew</span><span class="pill">Sea salt</span></div>
+          </div>
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80" alt="Cold brew" />
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="section-header reveal">
+        <p class="eyebrow">Gallery</p>
+        <h2>Moments from our corner.</h2>
+      </div>
+      <div class="gallery-grid">
+        <img class="reveal" src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?auto=format&fit=crop&w=700&q=80" alt="Espresso shot" />
+        <img class="reveal" src="https://images.unsplash.com/photo-1459257868276-5e65389e2722?auto=format&fit=crop&w=700&q=80" alt="Latte art" />
+        <img class="reveal" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=700&q=80" alt="Pastries" />
+        <img class="reveal" src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=700&q=80" alt="Pour over" />
+        <img class="reveal" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=80" alt="Seating" />
+      </div>
+    </section>
+
+    <section class="section visit" id="visit">
+      <div class="visit-card reveal">
+        <div>
+          <p class="eyebrow">Visit</p>
+          <h2>Come by, stay awhile.</h2>
+          <p class="lede">143 Copper Lane, Brooklyn NY</p>
+          <p>Weekdays 7am–6pm · Weekends 8am–7pm</p>
+          <div class="pill-row">
+            <span class="pill">Free Wi-Fi</span>
+            <span class="pill">Outlet seats</span>
+            <span class="pill">Pet friendly</span>
+          </div>
+          <div class="actions">
+            <a class="btn ghost" href="#reserve">Reserve</a>
+            <a class="btn primary" href="tel:+17185551234">Call us</a>
+          </div>
+        </div>
+        <div class="map">
+          <iframe title="Map placeholder" src="https://www.openstreetmap.org/export/embed.html?bbox=-74.012%2C40.69%2C-73.95%2C40.73&amp;layer=mapnik" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reserve" id="reserve">
+      <div class="section-header reveal">
+        <p class="eyebrow">Reserve</p>
+        <h2>Save your favorite corner.</h2>
+      </div>
+      <form class="reserve-form reveal">
+        <div class="field">
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="you@example.com" required>
+        </div>
+        <div class="field trio">
+          <div>
+            <label for="date">Date</label>
+            <input id="date" type="date" required>
+          </div>
+          <div>
+            <label for="time">Time</label>
+            <input id="time" type="time" required>
+          </div>
+          <div>
+            <label for="party">Party size</label>
+            <input id="party" type="number" min="1" max="10" value="2" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="notes">Notes</label>
+          <textarea id="notes" rows="3" placeholder="Allergies, seating preferences..."></textarea>
+        </div>
+        <button type="submit" class="btn primary">Request booking</button>
+        <p class="fine-print">We’ll confirm by email within a few minutes.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div>
+        <div class="logo">Copper Cup</div>
+        <p>Your neighborhood ritual. Coffee, pastries, people.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <p class="eyebrow">Visit</p>
+          <p>143 Copper Lane<br>Brooklyn, NY</p>
+        </div>
+        <div>
+          <p class="eyebrow">Hours</p>
+          <p>Mon–Fri 7am–6pm<br>Sat–Sun 8am–7pm</p>
+        </div>
+        <div>
+          <p class="eyebrow">Contact</p>
+          <p>(718) 555-1234<br>hello@coppercup.com</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Copper Cup Café. Crafted with care.</p>
+      <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+        <a href="#">Newsletter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
